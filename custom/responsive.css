@@ -2,7 +2,7 @@
 @media only screen and (min-width : 361px) {}
 
 /* Smartphones (portrait) ----------- */
-@media only screen and (max-width : 360px) {
+@media only screen and (max-width : 400px) {
     .top-1st-div {
         padding: 10px;
     }
