@@ -1,7 +1,9 @@
 html {
     scroll-behavior: smooth;
 }
-
+.navbar{
+    padding: 10px 20px !important;
+}
 .bg-20 {
     background-color: #202020;
     color: #fff;
@@ -51,6 +53,10 @@ html {
     font-family: 'Dela Gothic One',
         cursive;
     font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.navbar-dark .navbar-toggler{
+    border-color: white;
 }
 
 .top-img {
@@ -68,7 +74,6 @@ html {
 
 .coz-px {
     padding-left: 2rem;
-    padding-right: 2rem;
 }
 
 .coz-mx {
@@ -91,9 +96,19 @@ html {
 .top-1st-div {
     padding: 50px;
 }
-
+.z-index-1{
+    z-index: 1;
+    padding-top: 44px;
+}
+.content-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 .top-name {
-    color: #02dbbe;
+    color: #02dbbe !important;
     font-family: 'Dela Gothic One', 'cursive';
 }
 
@@ -106,10 +121,12 @@ html {
 }
 
 .ico-title-dec {
-    margin-bottom: -40px;
-    font-size: 90px;
+    font-size: 60px;
     opacity: 30%;
     color: #7e919c;
+    position: relative;
+    top: 0px;
+    margin-right: 10px;
 }
 
 .ico-title-dec-2 {
@@ -117,6 +134,7 @@ html {
     font-size: 60px;
     opacity: 30%;
     color: #038cdc;
+    display: none;
 }
 
 .big {
